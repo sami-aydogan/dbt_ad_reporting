@@ -10,7 +10,7 @@ packages:
     version: [">=0.3.0", "<0.4.0"]
 
   - git: "https://github.com/sami-aydogan/dbt_google_ads.git"
-      revision: main
+    revision: main
   
   - package: fivetran/twitter_ads
     version: [">=0.3.0", "<0.4.0"]
