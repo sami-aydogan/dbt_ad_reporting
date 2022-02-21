@@ -1,22 +1,24 @@
 packages:
-
   - package: fivetran/pinterest
-    version: [">=0.4.0", "<0.5.0"]
+    version: [">=0.5.0", "<0.6.0"]
 
   - package: fivetran/microsoft_ads
-    version: [">=0.3.0", "<0.4.0"]
-    
+    version: [">=0.4.0", "<0.5.0"]
+
   - package: fivetran/linkedin
-    version: [">=0.3.0", "<0.4.0"]
+    version: [">=0.4.0", "<0.5.0"]
 
   - git: "https://github.com/sami-aydogan/dbt_google_ads.git"
     revision: main
   
+  - package: fivetran/tiktok_ads
+    version: [">=0.1.0", "<0.2.0"]
+
   - package: fivetran/twitter_ads
-    version: [">=0.3.0", "<0.4.0"]
+    version: [">=0.4.0", "<0.5.0"]
   
   - git: "https://github.com/sami-aydogan/dbt_facebook_ads.git"
     revision: main
 
   - package: fivetran/snapchat_ads
-    version: [">=0.2.0", "<0.3.0"]
+    version: [">=0.3.0", "<0.4.0"]
